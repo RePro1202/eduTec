@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
 
     GameObject nearObject;
 
+    //bool culture = false;
+    //bool food = false;
 
     // Start is called before the first frame update
     void Start()
