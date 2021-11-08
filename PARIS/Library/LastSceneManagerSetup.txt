@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/WDAssets/LowPolyParisPack/SampleScenes/SampleSceneA.unity
+- path: Assets/loadingscene/Start Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
