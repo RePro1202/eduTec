@@ -6,7 +6,7 @@
   - StartScene, LoadingScene 추가 및 버튼을 통한 Scene 전환 스크립트 추가
     + LoadingScene 오류로 인해 삭제
 * 불필요한 파일 삭제
-* 
+
 ### 2021.11.06
 
 * 팝업 시스템
