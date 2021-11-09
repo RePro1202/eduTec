@@ -5,76 +5,82 @@ using UnityEngine;
 
 public class QuizControl : MonoBehaviour
 {
-    public Text question;
-    public Text answer1;
-    public Text answer2;
+    public RandMarkSpot randmark;
 
-    private int counter = 1;
+    public GameObject button_true;
+    public GameObject button_false;
+    public GameObject button_01;
+    public GameObject button_02;
+    public GameObject button_03;
 
-    string qText, aText1, aText2;
+    private int index = 1;
+
+    private Image image;
+
+    [SerializeField]
+    private Sprite[] sprites;
+
+    [SerializeField]
+    public int[] answer;
+
+    [SerializeField]
+    public int[] type;
 
     // Start is called before the first frame update
     void Start()
     {
-        NextQuiz();
-        question.GetComponent<Text>().text = qText;
-        answer1.GetComponent<Text>().text = aText1;
-        answer2.GetComponent<Text>().text = aText2;
+        image = GetComponent<Image>();
+        QuizFuc();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnDisable()
     {
+        index = 0;
+        image.sprite = sprites[index];
+        QuizFuc();
+        index++;
+    }
 
+    public void Click()
+    {
+        if (sprites.Length != index)
+        {
+            QuizFuc();
+
+            image.sprite = sprites[index];
+            index++;
+        }
+        else
+        {
+            randmark.Exit();
+        }
     }
 
     public void QuizFuc()
     {
-        switch (counter) {
-            case 1:
-                qText = " question Text 01 ";
-                aText1 = " answer 1";
-                aText2 = " answer 2";
-                break;
-            case 2: 
-                qText = " question Text 02 ";
-                aText1 = " answer 3";
-                aText2 = " answer 4";
-                break;
-            case 3:
-                qText = " question Text 03 ";
-                aText1 = " answer 5";
-                aText2 = " answer 6";
-                break;
-            case 4:
-                qText = " question Text 04 ";
-                aText1 = " answer 7";
-                aText2 = " answer 8";
-                break;
-        }
-    }
+        button_01.GetComponent<Button>();
+        button_02.GetComponent<Button>();
+        button_03.GetComponent<Button>();
+        button_true.GetComponent<Button>();
+        button_false.GetComponent<Button>();
 
-    public void NextQuiz()
-    {
-        if(counter <= 4)
+        if (type[index] == 0)    // ox문제
         {
-            QuizFuc();
-            question.GetComponent<Text>().text = qText;
-            answer1.GetComponent<Text>().text = aText1;
-            answer2.GetComponent<Text>().text = aText2;
+            button_01.SetActive(false);
+            button_02.SetActive(false);
+            button_03.SetActive(false);
 
-            counter++;
+            button_true.SetActive(true);
+            button_false.SetActive(true);
         }
-        else if(counter > 4)
+        else if (type[index] == 1)  // 3지선다
         {
-            counter = 1;
+            button_01.SetActive(true);
+            button_02.SetActive(true);
+            button_03.SetActive(true);
 
-            QuizFuc();
-            question.GetComponent<Text>().text = qText;
-            answer1.GetComponent<Text>().text = aText1;
-            answer2.GetComponent<Text>().text = aText2;
-            counter++;
-            this.gameObject.SetActive(false);
+            button_true.SetActive(false);
+            button_false.SetActive(false);
         }
     }
 }

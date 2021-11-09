@@ -26,6 +26,12 @@ public class ImageControl : MonoBehaviour
         
     }
 
+    void OnDisable()
+    {
+        index = 1;
+        image.sprite = sprites[index-1];
+    }
+
     public void NextImage()
     {
         if (sprites.Length == index)
@@ -38,4 +44,12 @@ public class ImageControl : MonoBehaviour
         index++;
     }
 
+    public void BackImage()
+    {
+        if (index > 1)
+        {
+            image.sprite = sprites[index - 2];
+            index--;
+        }
+    }
 }
