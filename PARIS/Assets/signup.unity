@@ -1067,6 +1067,30 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d77e3a5b69241834184b7c330788e627, type: 3}
   - {fileID: 21300000, guid: 1b364f2551e8f0b43a2e163278f508ba, type: 3}
   - {fileID: 21300000, guid: e25df9e140386184fac02010aeb3c327, type: 3}
+  - {fileID: 21300000, guid: 3a8c5901bb525854d9073f3706e9db93, type: 3}
+  - {fileID: 21300000, guid: 910823e3f8bee6a43a6e99740a3812b1, type: 3}
+  - {fileID: 21300000, guid: 58930a810d160294fade49e9900624a0, type: 3}
+  - {fileID: 21300000, guid: e60eb95ad688c944ea538a37455e1682, type: 3}
+  - {fileID: 21300000, guid: b0a8e8bdbbaeb364b84877b5e052f074, type: 3}
+  - {fileID: 21300000, guid: 7c9ee0e9a4fbaf64ea236716a9aa2b7e, type: 3}
+  - {fileID: 21300000, guid: 1b747e76995729b48b8b59853d84db79, type: 3}
+  - {fileID: 21300000, guid: 4f63aaa17cea85940b8ade4245d26576, type: 3}
+  - {fileID: 21300000, guid: 202e04e6459ba4347bd6e6e26b053eb7, type: 3}
+  - {fileID: 21300000, guid: 32fddc198eee7d4499f85b9a705e410b, type: 3}
+  - {fileID: 21300000, guid: 30e40e9046540b647aff9252372ccb49, type: 3}
+  - {fileID: 21300000, guid: 2e94ea9505a2e1e4083ed0ca573ac5c3, type: 3}
+  - {fileID: 21300000, guid: fec9d7a460dbfd64d8df59987fd2f24c, type: 3}
+  - {fileID: 21300000, guid: 3b0a106907c934f41a1afb198747d217, type: 3}
+  - {fileID: 21300000, guid: 4f47047b0f412b648b65f5cfacd3caac, type: 3}
+  - {fileID: 21300000, guid: de9f9d8ad061d2041a324f67509ad252, type: 3}
+  - {fileID: 21300000, guid: f35818b183d6bd344a179d3a2d5df700, type: 3}
+  - {fileID: 21300000, guid: 1db9bc7b06d2aa547a9d65eb00067b92, type: 3}
+  - {fileID: 21300000, guid: dd967918f42ad444ea78703414a416f8, type: 3}
+  - {fileID: 21300000, guid: 60a1bef7185d8e648a38c51dbec232f4, type: 3}
+  - {fileID: 21300000, guid: e1eff2d550c1879489176bdd68df03b7, type: 3}
+  - {fileID: 21300000, guid: 06a8856165030eb4aa6eb43e3fadd37f, type: 3}
+  - {fileID: 21300000, guid: 6ddca5c7dc7de5a4da6c4bd414120371, type: 3}
+  - {fileID: 21300000, guid: 30a9f1d6855ca0e4d9ed2581276d3a1e, type: 3}
 --- !u!114 &1791550060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1141,8 +1165,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 764, y: -384}
-  m_SizeDelta: {x: 2.1135, y: 1.7514}
+  m_AnchoredPosition: {x: -27, y: 30}
+  m_SizeDelta: {x: 13.6307, y: 8.0118}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1792021514
 MonoBehaviour:
@@ -1213,7 +1237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
