@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.38522792, g: 0.47261608, b: 0.618491, a: 1}
+  m_IndirectSpecularColor: {r: 0.38522753, g: 0.47261494, b: 0.61848855, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1916,7 +1916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0261ec7dcb3f11547b94ef794a1d3dfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Quest: {fileID: 2145216287}
+  Quest: {fileID: 210322028}
   sprites:
   - {fileID: 1869897672889653418, guid: b659c22f9b8a3ca4eae4502aedff1fe5, type: 3}
   - {fileID: 1729109512578715483, guid: b659c22f9b8a3ca4eae4502aedff1fe5, type: 3}
@@ -3358,8 +3358,6 @@ MonoBehaviour:
   - {fileID: 1989914244804095440, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   - {fileID: -6302306078055872378, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   - {fileID: -442361578123611599, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
-  - {fileID: 8435826616607337010, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
-  - {fileID: 4403086585068172387, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   answer: 0400000003000000030000000300000002000000
   type: 0000000000000000010000000000000001000000
 --- !u!114 &210322031
@@ -10869,7 +10867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0261ec7dcb3f11547b94ef794a1d3dfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Quest: {fileID: 2145216287}
+  Quest: {fileID: 1578773170}
   sprites:
   - {fileID: 5672821007511138818, guid: bcb0a468af846d847919de4bb97482ad, type: 3}
   - {fileID: -5305732581655832902, guid: bcb0a468af846d847919de4bb97482ad, type: 3}
@@ -34739,7 +34737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0261ec7dcb3f11547b94ef794a1d3dfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Quest: {fileID: 2145216287}
+  Quest: {fileID: 1951828809}
   sprites:
   - {fileID: -3191882126009140536, guid: de49dd346687beb4999238becb69e5b1, type: 3}
   - {fileID: -4249202396041795333, guid: de49dd346687beb4999238becb69e5b1, type: 3}
@@ -37383,7 +37381,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1457675317
 RectTransform:
   m_ObjectHideFlags: 0
