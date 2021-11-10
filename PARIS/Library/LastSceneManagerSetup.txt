@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/signup.unity
+- path: Assets/PreTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

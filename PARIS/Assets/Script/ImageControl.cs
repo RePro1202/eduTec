@@ -20,12 +20,6 @@ public class ImageControl : MonoBehaviour
         image = GetComponent<Image>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void OnDisable()
     {
         index = 1;
