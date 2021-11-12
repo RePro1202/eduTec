@@ -1193,6 +1193,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: QuizControl, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &74932359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1567,6 +1579,7 @@ RectTransform:
   - {fileID: 1578773174}
   - {fileID: 1951828813}
   - {fileID: 210322029}
+  - {fileID: 1002654070}
   m_Father: {fileID: 1899438194}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3349,6 +3362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randmark: {fileID: 831211858}
+  OX: {fileID: 0}
   button_true: {fileID: 735088881}
   button_false: {fileID: 1906633169}
   button_01: {fileID: 425304512}
@@ -3358,6 +3372,7 @@ MonoBehaviour:
   - {fileID: 1989914244804095440, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   - {fileID: -6302306078055872378, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   - {fileID: -442361578123611599, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
+  OX_sprites: []
   answer: 0400000003000000030000000300000002000000
   type: 0000000000000000010000000000000001000000
 --- !u!114 &210322031
@@ -26990,6 +27005,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6cbbcf0049e171449847566d895f687c, type: 3}
   m_PrefabInstance: {fileID: 1000149316}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1002654069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1002654070}
+  - component: {fileID: 1002654072}
+  - component: {fileID: 1002654071}
+  m_Layer: 5
+  m_Name: OX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1002654070
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002654069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 98351371}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 833.2795, y: 833.2795}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1002654071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002654069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -7458644841931291081, guid: b2e47b9f0d5af24468aab9d97f1b0d37, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1002654072
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002654069}
+  m_CullTransparentMesh: 1
 --- !u!4 &1014203750 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6146144196441073785, guid: 809002a00a21d5847a9199222fd30dbb, type: 3}
@@ -35200,7 +35290,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2145216291}
         m_TargetAssemblyTypeName: QuizControl, Assembly-CSharp
-        m_MethodName: Click
+        m_MethodName: Onclick_Button_01
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -39863,6 +39953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randmark: {fileID: 936879065}
+  OX: {fileID: 0}
   button_true: {fileID: 448889302}
   button_false: {fileID: 1312830713}
   button_01: {fileID: 1615687584}
@@ -39874,6 +39965,7 @@ MonoBehaviour:
   - {fileID: -475093430938194681, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   - {fileID: 1391216297064433223, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   - {fileID: -4597572132278421490, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
+  OX_sprites: []
   answer: 0400000003000000030000000300000002000000
   type: 0000000000000000010000000000000001000000
 --- !u!114 &1578773172
@@ -46145,6 +46237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randmark: {fileID: 406252642}
+  OX: {fileID: 0}
   button_true: {fileID: 863500374}
   button_false: {fileID: 909002289}
   button_01: {fileID: 1299915911}
@@ -46156,6 +46249,7 @@ MonoBehaviour:
   - {fileID: -7811834608892705033, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   - {fileID: 8435826616607337010, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   - {fileID: 4403086585068172387, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
+  OX_sprites: []
   answer: 0400000003000000030000000300000002000000
   type: 0000000000000000010000000000000001000000
 --- !u!114 &1951828811
@@ -48033,6 +48127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randmark: {fileID: 1077179112}
+  OX: {fileID: 1002654069}
   button_true: {fileID: 1601062524}
   button_false: {fileID: 74932356}
   button_01: {fileID: 1270921684}
@@ -48044,8 +48139,11 @@ MonoBehaviour:
   - {fileID: 9176795453773130875, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   - {fileID: -6122388586208443171, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
   - {fileID: 7263770034074671417, guid: cbacf9f2a38a6ce46a49df81cefc45d5, type: 3}
-  answer: 0400000003000000030000000300000002000000
-  type: 0000000000000000010000000000000001000000
+  OX_sprites:
+  - {fileID: -7458644841931291081, guid: b2e47b9f0d5af24468aab9d97f1b0d37, type: 3}
+  - {fileID: -6035731170632756035, guid: b2e47b9f0d5af24468aab9d97f1b0d37, type: 3}
+  answer: 0100000001000000010000000100000001000000
+  type: 0100000001000000010000000100000001000000
 --- !u!1001 &2145436418
 PrefabInstance:
   m_ObjectHideFlags: 0

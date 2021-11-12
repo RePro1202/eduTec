@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
+
 public class QuizControl : MonoBehaviour
 {
     public RandMarkSpot randmark;
+    public GameObject OX;
 
     public GameObject button_true;
     public GameObject button_false;
@@ -14,11 +16,15 @@ public class QuizControl : MonoBehaviour
     public GameObject button_03;
 
     private int index = 1;
+    private int score = 0;
 
     private Image image;
+    private Image OX_image;
 
     [SerializeField]
     private Sprite[] sprites;
+    [SerializeField]
+    private Sprite[] OX_sprites;
 
     [SerializeField]
     public int[] answer;
@@ -30,6 +36,7 @@ public class QuizControl : MonoBehaviour
     void Start()
     {
         image = GetComponent<Image>();
+        OX_image = GetComponent<Image>();
         QuizFuc();
     }
 
@@ -83,4 +90,44 @@ public class QuizControl : MonoBehaviour
             button_false.SetActive(false);
         }
     }
+
+    public void Onclick_Button_01()
+    {
+        OX_image = GetComponent<Image>();
+
+        if (answer[index] == 1)
+        {
+            score++;
+            OX_image.sprite = OX_sprites[1];
+            OX.SetActive(true);
+        }
+        else
+        {
+            OX_image.sprite = OX_sprites[0];
+            OX.SetActive(true);
+        }
+
+        Click();
+    }
+
+    public void Onclick_Button_02()
+    {
+
+    }
+
+    public void Onclick_Button_03()
+    {
+
+    }
+
+    public void Onclick_Button_true()
+    {
+
+    }
+
+    public void Onclick_Button_false()
+    {
+
+    }
+
 }
