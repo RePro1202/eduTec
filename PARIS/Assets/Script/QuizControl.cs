@@ -32,24 +32,40 @@ public class QuizControl : MonoBehaviour
     [SerializeField]
     public int[] type;
 
+    private float timer;
+
     // Start is called before the first frame update
     void Start()
     {
+        button_01.GetComponent<Button>();
+        button_02.GetComponent<Button>();
+        button_03.GetComponent<Button>();
+        button_true.GetComponent<Button>();
+        button_false.GetComponent<Button>();
+
+        OX_image = OX.GetComponentInChildren<Image>();
         image = GetComponent<Image>();
-        OX_image = GetComponent<Image>();
         QuizFuc();
     }
 
     void OnDisable()
     {
         index = 0;
+        score = 0;
         image.sprite = sprites[index];
         QuizFuc();
         index++;
     }
 
+    private void Update()
+    {
+        
+    }
+
     public void Click()
     {
+        timer -= Time.deltaTime;
+
         if (sprites.Length != index)
         {
             QuizFuc();
@@ -64,13 +80,7 @@ public class QuizControl : MonoBehaviour
     }
 
     public void QuizFuc()
-    {
-        button_01.GetComponent<Button>();
-        button_02.GetComponent<Button>();
-        button_03.GetComponent<Button>();
-        button_true.GetComponent<Button>();
-        button_false.GetComponent<Button>();
-
+    { 
         if (type[index] == 0)    // ox¹®Á¦
         {
             button_01.SetActive(false);
@@ -93,17 +103,15 @@ public class QuizControl : MonoBehaviour
 
     public void Onclick_Button_01()
     {
-        OX_image = GetComponent<Image>();
-
-        if (answer[index] == 1)
+        if (answer[index-1] == 1)
         {
             score++;
-            OX_image.sprite = OX_sprites[1];
+            OX_image.sprite = OX_sprites[0];
             OX.SetActive(true);
         }
         else
         {
-            OX_image.sprite = OX_sprites[0];
+            OX_image.sprite = OX_sprites[1];
             OX.SetActive(true);
         }
 
@@ -113,21 +121,71 @@ public class QuizControl : MonoBehaviour
     public void Onclick_Button_02()
     {
 
+
+        if (answer[index-1] == 2)
+        {
+            score++;
+            OX_image.sprite = OX_sprites[0];
+            OX.SetActive(false);
+        }
+        else
+        {
+            OX_image.sprite = OX_sprites[1];
+            OX.SetActive(false);
+        }
+
+        Click();
     }
 
     public void Onclick_Button_03()
     {
+        if (answer[index-1] == 3)
+        {
+            score++;
+            OX_image.sprite = OX_sprites[0];
+            OX.SetActive(true);
+        }
+        else
+        {
+            OX_image.sprite = OX_sprites[1];
+            OX.SetActive(true);
+        }
 
+        Click();
     }
 
     public void Onclick_Button_true()
     {
+        if (answer[index - 1] == 4)
+        {
+            score++;
+            OX_image.sprite = OX_sprites[0];
+            OX.SetActive(true);
+        }
+        else
+        {
+            OX_image.sprite = OX_sprites[1];
+            OX.SetActive(true);
+        }
 
+        Click();
     }
 
     public void Onclick_Button_false()
     {
+        if (answer[index - 1] == 5)
+        {
+            score++;
+            OX_image.sprite = OX_sprites[0];
+            OX.SetActive(true);
+        }
+        else
+        {
+            OX_image.sprite = OX_sprites[1];
+            OX.SetActive(true);
+        }
 
+        Click();
     }
 
 }

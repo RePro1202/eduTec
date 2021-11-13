@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.38522792, g: 0.47261608, b: 0.618491, a: 1}
+  m_IndirectSpecularColor: {r: 0.38522753, g: 0.47261494, b: 0.61848855, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1183,23 +1183,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2145216291}
         m_TargetAssemblyTypeName: QuizControl, Assembly-CSharp
-        m_MethodName: Click
+        m_MethodName: Onclick_Button_false
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: QuizControl, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2718,7 +2706,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2145216291}
         m_TargetAssemblyTypeName: QuizControl, Assembly-CSharp
-        m_MethodName: Click
+        m_MethodName: Onclick_Button_02
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -40243,7 +40231,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2145216291}
         m_TargetAssemblyTypeName: QuizControl, Assembly-CSharp
-        m_MethodName: Click
+        m_MethodName: Onclick_Button_true
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -40925,7 +40913,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2145216291}
         m_TargetAssemblyTypeName: QuizControl, Assembly-CSharp
-        m_MethodName: Click
+        m_MethodName: Onclick_Button_03
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -48178,7 +48166,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2145216288
 RectTransform:
   m_ObjectHideFlags: 0
@@ -48269,7 +48257,7 @@ MonoBehaviour:
   OX_sprites:
   - {fileID: -7458644841931291081, guid: b2e47b9f0d5af24468aab9d97f1b0d37, type: 3}
   - {fileID: -6035731170632756035, guid: b2e47b9f0d5af24468aab9d97f1b0d37, type: 3}
-  answer: 0100000001000000010000000100000001000000
+  answer: 0100000001000000030000000200000003000000
   type: 0100000001000000010000000100000001000000
 --- !u!1001 &2145436418
 PrefabInstance:
