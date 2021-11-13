@@ -19,6 +19,7 @@ public class Gotostart : MonoBehaviour
 
     public void SceneChange()
     {
+        Time.timeScale = 1f;
         LoadingSceneManager.LoadScene("Start Scene");
     }
 }

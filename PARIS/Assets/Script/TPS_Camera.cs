@@ -19,8 +19,11 @@ public class TPS_Camera : MonoBehaviour
 
     void Update()
     {
-        Move();
-        LookAround();
+        if (Time.timeScale >= 1f)
+        {
+            Move();
+            LookAround();
+        }
     }
 
     private void Move()

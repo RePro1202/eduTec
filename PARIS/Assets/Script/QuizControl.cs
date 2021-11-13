@@ -32,7 +32,6 @@ public class QuizControl : MonoBehaviour
     [SerializeField]
     public int[] type;
 
-    private float timer;
 
     // Start is called before the first frame update
     void Start()
@@ -64,8 +63,6 @@ public class QuizControl : MonoBehaviour
 
     public void Click()
     {
-        timer -= Time.deltaTime;
-
         if (sprites.Length != index)
         {
             QuizFuc();
@@ -115,7 +112,8 @@ public class QuizControl : MonoBehaviour
             OX.SetActive(true);
         }
 
-        Click();
+        delayTIme();
+       
     }
 
     public void Onclick_Button_02()
@@ -134,7 +132,9 @@ public class QuizControl : MonoBehaviour
             OX.SetActive(false);
         }
 
-        Click();
+        delayTIme();
+  
+       
     }
 
     public void Onclick_Button_03()
@@ -151,7 +151,7 @@ public class QuizControl : MonoBehaviour
             OX.SetActive(true);
         }
 
-        Click();
+        delayTIme();
     }
 
     public void Onclick_Button_true()
@@ -168,7 +168,7 @@ public class QuizControl : MonoBehaviour
             OX.SetActive(true);
         }
 
-        Click();
+        delayTIme();
     }
 
     public void Onclick_Button_false()
@@ -185,7 +185,14 @@ public class QuizControl : MonoBehaviour
             OX.SetActive(true);
         }
 
+        delayTIme();
+    }
+
+    IEnumerator delayTIme()
+    {
+        yield return new WaitForSeconds(100);
         Click();
+        OX.SetActive(false);
     }
 
 }
