@@ -8,6 +8,7 @@ public class QuizControl : MonoBehaviour
 {
     public RandMarkSpot randmark;
     public GameObject OX;
+    public GameObject Show_result;
 
     public GameObject button_true;
     public GameObject button_false;
@@ -15,7 +16,7 @@ public class QuizControl : MonoBehaviour
     public GameObject button_02;
     public GameObject button_03;
 
-    private int index = 1;
+    private int index = 0;
     private int score = 0;
 
     private Image image;
@@ -32,6 +33,8 @@ public class QuizControl : MonoBehaviour
     [SerializeField]
     public int[] type;
 
+    public Text Text_result;
+    private Text PassFail;
 
     // Start is called before the first frame update
     void Start()
@@ -53,7 +56,6 @@ public class QuizControl : MonoBehaviour
         score = 0;
         image.sprite = sprites[index];
         QuizFuc();
-        index++;
     }
 
     private void Update()
@@ -63,17 +65,22 @@ public class QuizControl : MonoBehaviour
 
     public void Click()
     {
-        if (sprites.Length != index)
+        if (sprites.Length != index + 1)
         {
             QuizFuc();
-
-            image.sprite = sprites[index];
             index++;
+            image.sprite = sprites[index];
         }
         else
         {
-            randmark.Exit();
+            result();
         }
+    }
+
+    public void ExitQuiz()
+    {
+        Show_result.SetActive(false);
+        randmark.Exit();
     }
 
     public void QuizFuc()
@@ -100,7 +107,7 @@ public class QuizControl : MonoBehaviour
 
     public void Onclick_Button_01()
     {
-        if (answer[index-1] == 1)
+        if (answer[index] == 1)
         {
             score++;
             OX_image.sprite = OX_sprites[0];
@@ -118,9 +125,7 @@ public class QuizControl : MonoBehaviour
 
     public void Onclick_Button_02()
     {
-
-
-        if (answer[index-1] == 2)
+        if (answer[index] == 2)
         {
             score++;
             OX_image.sprite = OX_sprites[0];
@@ -138,7 +143,7 @@ public class QuizControl : MonoBehaviour
 
     public void Onclick_Button_03()
     {
-        if (answer[index-1] == 3)
+        if (answer[index] == 3)
         {
             score++;
             OX_image.sprite = OX_sprites[0];
@@ -155,36 +160,50 @@ public class QuizControl : MonoBehaviour
 
     public void Onclick_Button_true()
     {
-        if (answer[index - 1] == 4)
+        if (index > 0)
         {
-            score++;
-            OX_image.sprite = OX_sprites[0];
-            OX.SetActive(true);
+            if (answer[index] == 4)
+            {
+                score++;
+                OX_image.sprite = OX_sprites[0];
+                OX.SetActive(true);
+            }
+            else
+            {
+                OX_image.sprite = OX_sprites[1];
+                OX.SetActive(true);
+            }
+
+            StartCoroutine(delayTIme());
         }
         else
         {
-            OX_image.sprite = OX_sprites[1];
-            OX.SetActive(true);
+            Click();
         }
-
-        StartCoroutine(delayTIme());
     }
 
     public void Onclick_Button_false()
     {
-        if (answer[index - 1] == 5)
+        if (index == 0)
         {
-            score++;
-            OX_image.sprite = OX_sprites[0];
-            OX.SetActive(true);
+            randmark.Exit();
         }
         else
         {
-            OX_image.sprite = OX_sprites[1];
-            OX.SetActive(true);
-        }
+            if (answer[index] == 5)
+            {
+                score++;
+                OX_image.sprite = OX_sprites[0];
+                OX.SetActive(true);
+            }
+            else
+            {
+                OX_image.sprite = OX_sprites[1];
+                OX.SetActive(true);
+            }
 
-        StartCoroutine(delayTIme());
+            StartCoroutine(delayTIme());
+        }
     }
 
     IEnumerator delayTIme()
@@ -193,5 +212,27 @@ public class QuizControl : MonoBehaviour
         OX.SetActive(false);
         Click();
     }
+
+    public void result()
+    {
+        int temp2;
+
+        temp2 = sprites.Length;
+
+        if(score > sprites.Length/2)
+        {
+            string temp = sprites.Length-1 + "문제 중 " + score + "개를 맞춰 통과했습니다!";
+            Text_result.text = temp;
+            Text_result.color = Color.blue;
+        }
+        else
+        {
+            string temp = sprites.Length - 1 + "문제 중 " + score + "개를 맞춰 불합격 입니다!";
+            Text_result.text = temp;
+            Text_result.color = Color.red;
+        }
+        Show_result.SetActive(true);
+    }
+
 
 }
