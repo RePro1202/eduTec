@@ -7,6 +7,7 @@ public class RandMarkSpot : MonoBehaviour
     public GameObject popUp;
     public GameObject BackGround;
     public GameObject Quiz;
+    public GameObject inUI;
     Player enterPlayer;
 
     public void Enter(Player player)
@@ -17,7 +18,8 @@ public class RandMarkSpot : MonoBehaviour
         Quiz.GetComponent<GameObject>();
 
         BackGround.SetActive(true);
-        popUp.SetActive(true); 
+        popUp.SetActive(true);
+        inUI.SetActive(false);
     }
 
     public void Exit()
@@ -25,6 +27,7 @@ public class RandMarkSpot : MonoBehaviour
         BackGround.SetActive(false);
         popUp.SetActive(false);
         Quiz.SetActive(false);
+        inUI.SetActive(true);
     }
 
 }

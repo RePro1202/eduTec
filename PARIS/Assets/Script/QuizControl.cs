@@ -34,7 +34,7 @@ public class QuizControl : MonoBehaviour
     public int[] type;
 
     public Text Text_result;
-    private Text PassFail;
+    public inGameUI inUI;
 
     // Start is called before the first frame update
     void Start()
@@ -67,8 +67,8 @@ public class QuizControl : MonoBehaviour
     {
         if (sprites.Length != index + 1)
         {
-            QuizFuc();
             index++;
+            QuizFuc();
             image.sprite = sprites[index];
         }
         else
@@ -224,6 +224,7 @@ public class QuizControl : MonoBehaviour
             string temp = sprites.Length-1 + "문제 중 " + score + "개를 맞춰 통과했습니다!";
             Text_result.text = temp;
             Text_result.color = Color.blue;
+            inUI.SetUI(this);
         }
         else
         {
@@ -233,6 +234,4 @@ public class QuizControl : MonoBehaviour
         }
         Show_result.SetActive(true);
     }
-
-
 }
