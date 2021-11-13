@@ -112,8 +112,8 @@ public class QuizControl : MonoBehaviour
             OX.SetActive(true);
         }
 
-        delayTIme();
-       
+        StartCoroutine(delayTIme());
+
     }
 
     public void Onclick_Button_02()
@@ -124,17 +124,16 @@ public class QuizControl : MonoBehaviour
         {
             score++;
             OX_image.sprite = OX_sprites[0];
-            OX.SetActive(false);
+            OX.SetActive(true);
         }
         else
         {
             OX_image.sprite = OX_sprites[1];
-            OX.SetActive(false);
+            OX.SetActive(true);
         }
 
-        delayTIme();
-  
-       
+        StartCoroutine(delayTIme());
+
     }
 
     public void Onclick_Button_03()
@@ -151,7 +150,7 @@ public class QuizControl : MonoBehaviour
             OX.SetActive(true);
         }
 
-        delayTIme();
+        StartCoroutine(delayTIme());
     }
 
     public void Onclick_Button_true()
@@ -168,7 +167,7 @@ public class QuizControl : MonoBehaviour
             OX.SetActive(true);
         }
 
-        delayTIme();
+        StartCoroutine(delayTIme());
     }
 
     public void Onclick_Button_false()
@@ -185,14 +184,14 @@ public class QuizControl : MonoBehaviour
             OX.SetActive(true);
         }
 
-        delayTIme();
+        StartCoroutine(delayTIme());
     }
 
     IEnumerator delayTIme()
     {
-        yield return new WaitForSeconds(100);
-        Click();
+        yield return new WaitForSeconds(1);
         OX.SetActive(false);
+        Click();
     }
 
 }

@@ -1281,7 +1281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0261ec7dcb3f11547b94ef794a1d3dfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Quest: {fileID: 0}
+  Quest: {fileID: 1012174991}
   sprites:
   - {fileID: 21300000, guid: 3b0a106907c934f41a1afb198747d217, type: 3}
   - {fileID: 21300000, guid: 4f47047b0f412b648b65f5cfacd3caac, type: 3}
