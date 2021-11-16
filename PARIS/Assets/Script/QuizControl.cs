@@ -22,6 +22,12 @@ public class QuizControl : MonoBehaviour
     private Image image;
     private Image OX_image;
 
+    public AudioClip Wrong;
+    public AudioClip Correct;
+    public AudioClip Suceed;
+    public AudioClip Failed;
+    AudioSource audioSource;
+
     [SerializeField]
     private Sprite[] sprites;
     [SerializeField]
@@ -48,6 +54,8 @@ public class QuizControl : MonoBehaviour
         OX_image = OX.GetComponentInChildren<Image>();
         image = GetComponent<Image>();
         QuizFuc();
+
+        audioSource = gameObject.GetComponent<AudioSource>();
     }
 
     void OnDisable()
@@ -112,11 +120,13 @@ public class QuizControl : MonoBehaviour
             score++;
             OX_image.sprite = OX_sprites[0];
             OX.SetActive(true);
+            audioSource.PlayOneShot(Correct, 1);
         }
         else
         {
             OX_image.sprite = OX_sprites[1];
             OX.SetActive(true);
+            audioSource.PlayOneShot(Wrong, 1);
         }
 
         StartCoroutine(delayTIme());
@@ -130,11 +140,13 @@ public class QuizControl : MonoBehaviour
             score++;
             OX_image.sprite = OX_sprites[0];
             OX.SetActive(true);
+            audioSource.PlayOneShot(Correct, 1);
         }
         else
         {
             OX_image.sprite = OX_sprites[1];
             OX.SetActive(true);
+            audioSource.PlayOneShot(Wrong, 1);
         }
 
         StartCoroutine(delayTIme());
@@ -148,11 +160,13 @@ public class QuizControl : MonoBehaviour
             score++;
             OX_image.sprite = OX_sprites[0];
             OX.SetActive(true);
+            audioSource.PlayOneShot(Correct, 1);
         }
         else
         {
             OX_image.sprite = OX_sprites[1];
             OX.SetActive(true);
+            audioSource.PlayOneShot(Wrong, 1);
         }
 
         StartCoroutine(delayTIme());
@@ -167,11 +181,13 @@ public class QuizControl : MonoBehaviour
                 score++;
                 OX_image.sprite = OX_sprites[0];
                 OX.SetActive(true);
+                audioSource.PlayOneShot(Correct, 1);
             }
             else
             {
                 OX_image.sprite = OX_sprites[1];
                 OX.SetActive(true);
+                audioSource.PlayOneShot(Wrong, 1);
             }
 
             StartCoroutine(delayTIme());
@@ -195,11 +211,13 @@ public class QuizControl : MonoBehaviour
                 score++;
                 OX_image.sprite = OX_sprites[0];
                 OX.SetActive(true);
+                audioSource.PlayOneShot(Correct, 1);
             }
             else
             {
                 OX_image.sprite = OX_sprites[1];
                 OX.SetActive(true);
+                audioSource.PlayOneShot(Wrong, 1);
             }
 
             StartCoroutine(delayTIme());
@@ -225,12 +243,15 @@ public class QuizControl : MonoBehaviour
             Text_result.text = temp;
             Text_result.color = Color.blue;
             inUI.SetUI(this);
+            audioSource.PlayOneShot(Suceed,1);
+
         }
         else
         {
             string temp = sprites.Length - 1 + "문제 중 " + score + "개를 맞춰 불합격 입니다!";
             Text_result.text = temp;
             Text_result.color = Color.red;
+            audioSource.PlayOneShot(Failed, 1);
         }
         Show_result.SetActive(true);
     }
