@@ -9,6 +9,9 @@ public class PreTest : MonoBehaviour
     public GameObject LB;
     public GameObject RB;
     public GameObject NextB;
+    public AudioClip Result;
+    AudioSource audioSource;
+
 
     [SerializeField]
     private Sprite[] sprites;
@@ -25,6 +28,8 @@ public class PreTest : MonoBehaviour
     void Start()
     {
         image = GetComponent<Image>();
+
+        audioSource = gameObject.GetComponent<AudioSource>();
     }
 
     public void NextImage()
@@ -35,6 +40,7 @@ public class PreTest : MonoBehaviour
             MyCase();
             index = 0;
             a = 0; b = 0; c = 0; d = 0;
+            audioSource.PlayOneShot(Result, 1);
         }
         else
         {
