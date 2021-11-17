@@ -30,4 +30,9 @@ public class RandMarkSpot : MonoBehaviour
         inUI.SetActive(true);
     }
 
+    public void re_Std()
+    {
+        Quiz.SetActive(false);
+    }
+
 }

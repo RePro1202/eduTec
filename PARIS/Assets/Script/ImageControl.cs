@@ -26,6 +26,11 @@ public class ImageControl : MonoBehaviour
         image.sprite = sprites[index-1];
     }
 
+    public void re_Std()
+    {
+        Quest.SetActive(false);
+    }
+
     public void NextImage()
     {
         if (sprites.Length == index)

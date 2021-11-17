@@ -1,0 +1,1422 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'ko' Physical Memory: 16337 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/USER/Documents/GitHub/eduTec/PARIS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53152
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/eduTec/PARIS
+C:/Users/USER/Documents/GitHub/eduTec/PARIS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/eduTec/PARIS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004036 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1398ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (885ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.6 MB.
+System memory in use after: 76.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2036.
+Total: 3.406700 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.988800 ms  DeleteObjects: 0.086600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Game GUI Vol1/Playful/PNG/QuestionMark.png
+  artifactKey: Guid(4897c39ed1db34fcc81eca6e13612f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/QuestionMark.png using Guid(4897c39ed1db34fcc81eca6e13612f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cb3d3c82ba50de1c1aac484920ff2d') in 0.120173 seconds 
+  Import took 0.122871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Plus.png
+  artifactKey: Guid(c8d539ab64074495eb2513d09bf5b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Plus.png using Guid(c8d539ab64074495eb2513d09bf5b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046c7ad5c10ba25fcc3eccc17f222dbd') in 0.016551 seconds 
+  Import took 0.019507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Plus.png
+  artifactKey: Guid(0499308dc31514bf1be3189c00dd0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Plus.png using Guid(0499308dc31514bf1be3189c00dd0814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fae23265f179514de1e9fe28b71def7') in 0.017845 seconds 
+  Import took 0.022216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Game GUI Vol1/Playful/Sprites/PlayfulBG-resized.png
+  artifactKey: Guid(f2b033edcedaf437184c1c4cca7524a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/Sprites/PlayfulBG-resized.png using Guid(f2b033edcedaf437184c1c4cca7524a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199517ce93a8a3ced1a9d3903427ab5f') in 0.018510 seconds 
+  Import took 0.021678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section03/ExitButton.png
+  artifactKey: Guid(ea3977169a5ee1c468179b62f1e51fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section03/ExitButton.png using Guid(ea3977169a5ee1c468179b62f1e51fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b26d32bce4bb663faaea3c1d0a38c76') in 0.018982 seconds 
+  Import took 0.022858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Dollar.png
+  artifactKey: Guid(e94bcf476677c405883b8ae8701ab77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Dollar.png using Guid(e94bcf476677c405883b8ae8701ab77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8897f93c8520fd13c326a162d897a179') in 0.016058 seconds 
+  Import took 0.020074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section05/BlankButton.png
+  artifactKey: Guid(4d350e589a7cb554ca7301a404d9b847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section05/BlankButton.png using Guid(4d350e589a7cb554ca7301a404d9b847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee805ec6e0c623a3d5a9a5b0e367cb53') in 0.024390 seconds 
+  Import took 0.027272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section04/SettingButton.png
+  artifactKey: Guid(54ddf5d5adb0c3f42ab544ed582dc61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section04/SettingButton.png using Guid(54ddf5d5adb0c3f42ab544ed582dc61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674c050f51a801efbf881a3a77bce653') in 0.016912 seconds 
+  Import took 0.020115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Shop.png
+  artifactKey: Guid(36abed496fd744f97a71c25c6cd31f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Shop.png using Guid(36abed496fd744f97a71c25c6cd31f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6694e57aad97d1f4ed7eadeb3ef05c06') in 0.014493 seconds 
+  Import took 0.017644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/SoundOFF.png
+  artifactKey: Guid(09868a2567e8e495c84e92bfe43dbed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/SoundOFF.png using Guid(09868a2567e8e495c84e92bfe43dbed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fe24a5ac4c17b485db4d6d12ffaf19') in 0.012694 seconds 
+  Import took 0.015698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Plus.png
+  artifactKey: Guid(260b840a241de49ca868affd25c01999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Plus.png using Guid(260b840a241de49ca868affd25c01999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c548b7aada1d7c7138273b613e6741b0') in 0.015402 seconds 
+  Import took 0.019326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow.png
+  artifactKey: Guid(f2c06d80ab9bd4de2ae0a7876f25299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow.png using Guid(f2c06d80ab9bd4de2ae0a7876f25299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b23cd7231147015f275d0cb6114beb0') in 0.014868 seconds 
+  Import took 0.018878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Setting.png
+  artifactKey: Guid(be8cca1b5f8a141d5a739368332d1278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Setting.png using Guid(be8cca1b5f8a141d5a739368332d1278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f692183ad266fc03ea6be331538320') in 0.013915 seconds 
+  Import took 0.017246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/LeftArrow2.png
+  artifactKey: Guid(5cf7cc585e72f4a4f9589d76a3a891f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/LeftArrow2.png using Guid(5cf7cc585e72f4a4f9589d76a3a891f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9c45ab03ea48b198890ed6cab35c86') in 0.014667 seconds 
+  Import took 0.017900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Pause.png
+  artifactKey: Guid(ff645a4c999a14801b1a714a2087338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Pause.png using Guid(ff645a4c999a14801b1a714a2087338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f715f57a4ff705c5843658a21357769f') in 0.016358 seconds 
+  Import took 0.019574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section05/SettingButton.png
+  artifactKey: Guid(5128a329f9c763d46a4d2b82fa32bb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section05/SettingButton.png using Guid(5128a329f9c763d46a4d2b82fa32bb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05e16a7a7b847e0968a2d2ffbe26b60') in 0.014656 seconds 
+  Import took 0.017403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000725 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow2.png
+  artifactKey: Guid(0808619d4e2144e2aa965a8768addde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/LeftArrow2.png using Guid(0808619d4e2144e2aa965a8768addde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b34b30bac70311c2570079eca14974d') in 0.013705 seconds 
+  Import took 0.017275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/GooglePlus.png
+  artifactKey: Guid(b6ac349d9494c4899bb71d2f222547eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/GooglePlus.png using Guid(b6ac349d9494c4899bb71d2f222547eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd133d8d52d2d5f43aaa586d83edf69c8') in 0.012927 seconds 
+  Import took 0.016395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/GooglePlus.png
+  artifactKey: Guid(dd4882e7a2d7440e59d7a8af06ea9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/GooglePlus.png using Guid(dd4882e7a2d7440e59d7a8af06ea9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd1993ff9e1b726c78fd94bc91bb634') in 0.013852 seconds 
+  Import took 0.017187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Menu.png
+  artifactKey: Guid(21a4f3d60a402429ebe35a661aa8a158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Menu.png using Guid(21a4f3d60a402429ebe35a661aa8a158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc5bbc1b52bee543cd22fb63d0bb214') in 0.013618 seconds 
+  Import took 0.016513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Settings.png
+  artifactKey: Guid(25c2d239600db471aabc8ffa640bc0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Settings.png using Guid(25c2d239600db471aabc8ffa640bc0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c058e8c8546d03382f96973407860d6') in 0.015230 seconds 
+  Import took 0.018346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section04/ExitButton.png
+  artifactKey: Guid(eaa1d89c02773e34e90b78a04d12b34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section04/ExitButton.png using Guid(eaa1d89c02773e34e90b78a04d12b34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9675067e13fba088bfb07c7fd74c4a67') in 0.012946 seconds 
+  Import took 0.017292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section05/ExitButton.png
+  artifactKey: Guid(e7df6842c709c9448aa576367271665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section05/ExitButton.png using Guid(e7df6842c709c9448aa576367271665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618735abacd7f50b0ddfbdc67a6b690b') in 0.013642 seconds 
+  Import took 0.016737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Play.png
+  artifactKey: Guid(2f5f88874246f4ebbaca620f3cd37fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Play.png using Guid(2f5f88874246f4ebbaca620f3cd37fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1315b0f2921b6a872cc4cda5a1a980') in 0.015328 seconds 
+  Import took 0.018643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Home.png
+  artifactKey: Guid(fa2020b0e49b040ecb52762bcefdd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Home.png using Guid(fa2020b0e49b040ecb52762bcefdd053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf8d4b199dbd22d8235624ca487b771') in 0.014711 seconds 
+  Import took 0.017655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Settings.png
+  artifactKey: Guid(b19489b3ffbd6417989ea6d8d96437e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Settings.png using Guid(b19489b3ffbd6417989ea6d8d96437e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a69e9d28f33f54b3c4f66906039f9a') in 0.014323 seconds 
+  Import took 0.017228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/RightArrow2.png
+  artifactKey: Guid(158d9e70551a94b70b0ef8b0ff7e3183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/RightArrow2.png using Guid(158d9e70551a94b70b0ef8b0ff7e3183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87a4e0a6baf6ed1a9a3a153c42b2e6a') in 0.015533 seconds 
+  Import took 0.018441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/QuestionMark.png
+  artifactKey: Guid(c80083ffcc8ea4523bd1a19b87fa03f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/QuestionMark.png using Guid(c80083ffcc8ea4523bd1a19b87fa03f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a490a66d17964b801af4a755cd8e0d5') in 0.017810 seconds 
+  Import took 0.022232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section04/BlankButton.png
+  artifactKey: Guid(0e3bb115b578abc4e911686acf85c554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section04/BlankButton.png using Guid(0e3bb115b578abc4e911686acf85c554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125decfcaeffe62468d6a8d1415cd025') in 0.013974 seconds 
+  Import took 0.017626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Play.png
+  artifactKey: Guid(6bb92db56863a49bf9fc5e992e334d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Play.png using Guid(6bb92db56863a49bf9fc5e992e334d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96cef957b63dc10eef38abca4620774') in 0.014088 seconds 
+  Import took 0.017236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Home.png
+  artifactKey: Guid(dc784d03a5bcb48e79ea5faa09963f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Home.png using Guid(dc784d03a5bcb48e79ea5faa09963f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45c5faec4c6b1aa16e82667bc44fd56') in 0.012854 seconds 
+  Import took 0.016339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Facebook.png
+  artifactKey: Guid(777d63edabbf0469d8c7f88249361a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Facebook.png using Guid(777d63edabbf0469d8c7f88249361a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dd913e894e47f539027341f7bff708') in 0.013666 seconds 
+  Import took 0.017212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/GameCenter.png
+  artifactKey: Guid(e8750dbfc75fb48f78495a60b50d42cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/GameCenter.png using Guid(e8750dbfc75fb48f78495a60b50d42cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410933f6c00ef7b5fbe23d888aef08d8') in 0.014038 seconds 
+  Import took 0.017738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Info.png
+  artifactKey: Guid(f93edb3ee7d134cca84bf9788ebc2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Info.png using Guid(f93edb3ee7d134cca84bf9788ebc2818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395a88c2bf9feef94e2f88db0b5c2d91') in 0.015178 seconds 
+  Import took 0.017926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Star.png
+  artifactKey: Guid(e1e3e64dac28149d1bf7e15801897c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Star.png using Guid(e1e3e64dac28149d1bf7e15801897c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b06f1a9c6ab7eb97f3c64e153d50e3') in 0.013664 seconds 
+  Import took 0.018043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Pause.png
+  artifactKey: Guid(4d901cadb1574446ea83838465c11d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Pause.png using Guid(4d901cadb1574446ea83838465c11d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7408a37ffbed0015ebcafadda86dabbc') in 0.014615 seconds 
+  Import took 0.018886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section02/BlankButton.png
+  artifactKey: Guid(c79649f5ede2efe479a1e54325226dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section02/BlankButton.png using Guid(c79649f5ede2efe479a1e54325226dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6795ca2b3f5300816feccefbbc1c587a') in 0.014830 seconds 
+  Import took 0.018198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Gamecenter.png
+  artifactKey: Guid(e854657a70607456195b05e45d4ed4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Gamecenter.png using Guid(e854657a70607456195b05e45d4ed4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15b6298d87593090b48208844e83d72') in 0.013712 seconds 
+  Import took 0.016417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Facebook.png
+  artifactKey: Guid(6e750fd74c75647a6ad4084d7ca478ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Facebook.png using Guid(6e750fd74c75647a6ad4084d7ca478ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6430f195ecbcfa50b257b0a9228d39b') in 0.014335 seconds 
+  Import took 0.017598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Minus.png
+  artifactKey: Guid(cdb25197b31d744fa9eba9d2a90e560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Minus.png using Guid(cdb25197b31d744fa9eba9d2a90e560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f6fa47a39aaf5c46e12f22c786a65e') in 0.013419 seconds 
+  Import took 0.016344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Minus.png
+  artifactKey: Guid(9c29adab143964e72ac9925bed125d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Minus.png using Guid(9c29adab143964e72ac9925bed125d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc37c4165306e6a1f40ab1c1a217f38') in 0.013959 seconds 
+  Import took 0.016903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Menu.png
+  artifactKey: Guid(5607024d493b549c69e86596366a7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Menu.png using Guid(5607024d493b549c69e86596366a7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3513b6b574ab570b2332ad3f1d4837c9') in 0.014028 seconds 
+  Import took 0.017006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section04/OptionButton.png
+  artifactKey: Guid(b9896ee07d016a44bbc480d01b5eae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section04/OptionButton.png using Guid(b9896ee07d016a44bbc480d01b5eae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9595a8b62a4790f7a52f5f50aa5214') in 0.020014 seconds 
+  Import took 0.024071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Info.png
+  artifactKey: Guid(8c0ed55b3632045a293808cf3776c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Info.png using Guid(8c0ed55b3632045a293808cf3776c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c5b90614ff132eea44bd6c6114e780') in 0.012828 seconds 
+  Import took 0.015672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Settings.png
+  artifactKey: Guid(2404a35a318704f1583a4173e501e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Settings.png using Guid(2404a35a318704f1583a4173e501e002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994d92b13bad3f717756d204908d8b93') in 0.013194 seconds 
+  Import took 0.016767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Facebook.png
+  artifactKey: Guid(f8fbcce33e10b4672b9cf19e5310a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Facebook.png using Guid(f8fbcce33e10b4672b9cf19e5310a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fee95480688c360df866f59aa8c2089') in 0.013508 seconds 
+  Import took 0.016536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Forward.png
+  artifactKey: Guid(b4d4b6ba6b700437281965634850cd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Forward.png using Guid(b4d4b6ba6b700437281965634850cd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15849d2b26e374ad926b058293e39b92') in 0.011961 seconds 
+  Import took 0.014693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/Sprites/LazyDayBG-resized.png
+  artifactKey: Guid(e172132fe1d2244be9ab527153041e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/Sprites/LazyDayBG-resized.png using Guid(e172132fe1d2244be9ab527153041e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8928c40d5c69e3f50a092baea5b56a') in 0.012783 seconds 
+  Import took 0.016438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow.png
+  artifactKey: Guid(77078911f297f4bd5a569ec4570fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow.png using Guid(77078911f297f4bd5a569ec4570fb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771929c2fc1cb1aecfc86d4e54d25f79') in 0.016063 seconds 
+  Import took 0.020635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Cancel.png
+  artifactKey: Guid(19a991bbda38944fe9e46b17c9c7ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Cancel.png using Guid(19a991bbda38944fe9e46b17c9c7ce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861e697c45997f3bb26eb3f7a7830371') in 0.017974 seconds 
+  Import took 0.022200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Backward.png
+  artifactKey: Guid(64a5151e5a4ed4c8b9a85b7e853e6d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Backward.png using Guid(64a5151e5a4ed4c8b9a85b7e853e6d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393282a4065da75dd8a31902ef6ba80f') in 0.015776 seconds 
+  Import took 0.019306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Play.png
+  artifactKey: Guid(ce857edf439f7445da139f48a7f3dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Play.png using Guid(ce857edf439f7445da139f48a7f3dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1534e4bbb5b291e5b4d1ff1001a7830b') in 0.012684 seconds 
+  Import took 0.015689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Menu.png
+  artifactKey: Guid(18937ce52bb4c4ba8adefb39eebdbf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Menu.png using Guid(18937ce52bb4c4ba8adefb39eebdbf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26aea65f8aa8b5af3e03c73868f3ebee') in 0.014552 seconds 
+  Import took 0.017685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Plus.png
+  artifactKey: Guid(95f2deec6adc349d593041107b4f54dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Plus.png using Guid(95f2deec6adc349d593041107b4f54dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7e3bd187a9c618d80b2752c0c00958') in 0.012804 seconds 
+  Import took 0.015463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/LeftArrow.png
+  artifactKey: Guid(ce35983827a13452393a9e18298f9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/LeftArrow.png using Guid(ce35983827a13452393a9e18298f9474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c92cf7d93c6f5a0fc1665844925635') in 0.013573 seconds 
+  Import took 0.016339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Home.png
+  artifactKey: Guid(ca0a2ab339ca748a1981966c17c1829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Home.png using Guid(ca0a2ab339ca748a1981966c17c1829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acfdc94e70b4baedf063a3049d24be0') in 0.013064 seconds 
+  Import took 0.016053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Shop.png
+  artifactKey: Guid(1402e28f6b5254db2a8c7e8a008025c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Shop.png using Guid(1402e28f6b5254db2a8c7e8a008025c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd582931c0f63186789fb530c16560884') in 0.013290 seconds 
+  Import took 0.015920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Shop.png
+  artifactKey: Guid(d7dc60134e8aa4c7cb98c0c2c539e948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Shop.png using Guid(d7dc60134e8aa4c7cb98c0c2c539e948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aafcf7e4977c2918bc730821ec501bb') in 0.012743 seconds 
+  Import took 0.015516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/DownArrow.png
+  artifactKey: Guid(d5b8393f09eb6470e905ec740629c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/DownArrow.png using Guid(d5b8393f09eb6470e905ec740629c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e44dcc78000bf940ea4d3317bba801c') in 0.013425 seconds 
+  Import took 0.016141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/SoundOFF.png
+  artifactKey: Guid(f4877361b6507457d80b5102839b4cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/SoundOFF.png using Guid(f4877361b6507457d80b5102839b4cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55618597131e90932059b0199c01365f') in 0.013046 seconds 
+  Import took 0.015633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Cancel.png
+  artifactKey: Guid(1c8431185995a43f4a7544bcb872b5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Cancel.png using Guid(1c8431185995a43f4a7544bcb872b5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159c8baab4c9ae3d9d62d6820e494761') in 0.015506 seconds 
+  Import took 0.018309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow2.png
+  artifactKey: Guid(2967f194254044f96abcd9634aaae57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow2.png using Guid(2967f194254044f96abcd9634aaae57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2335bc45915a3ade45c22058d6cac80') in 0.015442 seconds 
+  Import took 0.018964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow2.png
+  artifactKey: Guid(7a9bf3ca46891465fb5d44d7ce02e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/RightArrow2.png using Guid(7a9bf3ca46891465fb5d44d7ce02e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691e532dced428d1bda485cda2863e45') in 0.014870 seconds 
+  Import took 0.018317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Info.png
+  artifactKey: Guid(e2f97d3975aca4a5f975ded803cdc06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Info.png using Guid(e2f97d3975aca4a5f975ded803cdc06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05cb5bebe8173b1b6e169baf83593c3') in 0.013301 seconds 
+  Import took 0.016977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/GooglePlus.png
+  artifactKey: Guid(f81d16fc976584825bd3c0de731a9bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/GooglePlus.png using Guid(f81d16fc976584825bd3c0de731a9bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93519650e3dbbba3f7309b75af9997a9') in 0.011541 seconds 
+  Import took 0.014078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/SoundON.png
+  artifactKey: Guid(aebe8973df4444fb096d979f24b536bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/SoundON.png using Guid(aebe8973df4444fb096d979f24b536bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fb0e653f38d23a84adbcde190cd152') in 0.012855 seconds 
+  Import took 0.015484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section05/OptionButton.png
+  artifactKey: Guid(a84032be18a996a4fab44eda7d3f9b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section05/OptionButton.png using Guid(a84032be18a996a4fab44eda7d3f9b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f193d58f76a02f717cac90d8b3e13df4') in 0.012751 seconds 
+  Import took 0.016113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/DownArrow.png
+  artifactKey: Guid(7c34b0ecb12224eb88343135a587bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/DownArrow.png using Guid(7c34b0ecb12224eb88343135a587bfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125d72f04ddf5da988a6078bb5a5e914') in 0.012011 seconds 
+  Import took 0.015022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/QuestionMark.png
+  artifactKey: Guid(64f0a7f4e869e4a4bb5359134071e196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/QuestionMark.png using Guid(64f0a7f4e869e4a4bb5359134071e196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bce193789332b508b1a3a6a2d329dfc') in 0.014740 seconds 
+  Import took 0.018468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Shop.png
+  artifactKey: Guid(2bd72e24f280d472db2eeda221ac6b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Shop.png using Guid(2bd72e24f280d472db2eeda221ac6b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e37914d9fbb4171135078657747479') in 0.014136 seconds 
+  Import took 0.017304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Backward.png
+  artifactKey: Guid(cdfc291ab2d1647e2b5ae4067e00d42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Backward.png using Guid(cdfc291ab2d1647e2b5ae4067e00d42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e7761225bc8a0a02adda0557bae3b3') in 0.015404 seconds 
+  Import took 0.018684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundOFF.png
+  artifactKey: Guid(c66941a5047f24dadb66035a5ed07773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundOFF.png using Guid(c66941a5047f24dadb66035a5ed07773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafa232f8b3b82459e9d410e955ae9b1') in 0.013763 seconds 
+  Import took 0.016810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/SoundON.png
+  artifactKey: Guid(38ec0776fb6b2455a9d6166b4814d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/SoundON.png using Guid(38ec0776fb6b2455a9d6166b4814d5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb96616ff00f9c478d0cacb426e8f65d') in 0.014806 seconds 
+  Import took 0.018786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Dollar.png
+  artifactKey: Guid(59ec1a13a533548139b3cebe8ed491ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Dollar.png using Guid(59ec1a13a533548139b3cebe8ed491ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a0791d6b973f389f1ceac046c6e2d0') in 0.014954 seconds 
+  Import took 0.018404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section03/SettingButton.png
+  artifactKey: Guid(c9ba45f6365a414438658d33d015d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section03/SettingButton.png using Guid(c9ba45f6365a414438658d33d015d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba034e85fd29f9ceb7c2587b34aafd63') in 0.015012 seconds 
+  Import took 0.018656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/SoundOFF.png
+  artifactKey: Guid(a7e1e81117197488db394021a1b04920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/SoundOFF.png using Guid(a7e1e81117197488db394021a1b04920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce051d2546a70be2a61b165dde28b657') in 0.014610 seconds 
+  Import took 0.017375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Restart.png
+  artifactKey: Guid(5571f1c6de6ec43b682999ea5905a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Restart.png using Guid(5571f1c6de6ec43b682999ea5905a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3e362895f66329e10814f9ce5ce9b2') in 0.015201 seconds 
+  Import took 0.018681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/RightArrow.png
+  artifactKey: Guid(37f6c6fb321ad4710954e2eaa3d57791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/RightArrow.png using Guid(37f6c6fb321ad4710954e2eaa3d57791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddece2241e9ae469c80f8aeb916e85cd') in 0.015329 seconds 
+  Import took 0.019212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section01/SettingButton.png
+  artifactKey: Guid(9afe8b723df40a948b3df48c0736b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section01/SettingButton.png using Guid(9afe8b723df40a948b3df48c0736b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf16512f5de6a8a7b311edb5e19bf3a9') in 0.017170 seconds 
+  Import took 0.020133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Minus.png
+  artifactKey: Guid(f13dc8a456a284e7b8a7489bb427798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Minus.png using Guid(f13dc8a456a284e7b8a7489bb427798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd27d1cc13abdebce715f78399dabec') in 0.014252 seconds 
+  Import took 0.018219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Backward.png
+  artifactKey: Guid(c916bf149f09c459089a45701474d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Backward.png using Guid(c916bf149f09c459089a45701474d78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b7ac2523679375d9efa80a8e207d00') in 0.016069 seconds 
+  Import took 0.020095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section01/ExitButton.png
+  artifactKey: Guid(0ce06714099be154f9ddd1700c6a944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section01/ExitButton.png using Guid(0ce06714099be154f9ddd1700c6a944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5cf6bf3fa30cc1ca92e556e21daf22') in 0.017342 seconds 
+  Import took 0.021553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/LeftArrow2.png
+  artifactKey: Guid(8e30869e26f224b6caa46e456e90f026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/LeftArrow2.png using Guid(8e30869e26f224b6caa46e456e90f026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea43942281eed80ccbfe6b1f0872b67') in 0.016203 seconds 
+  Import took 0.019804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Star.png
+  artifactKey: Guid(198d72b902f744f1782e556c1aaced54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Star.png using Guid(198d72b902f744f1782e556c1aaced54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d57aa4cbdce54595fa16f04e223547') in 0.016314 seconds 
+  Import took 0.020064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section01/BlankButton.png
+  artifactKey: Guid(8d30fc405704e214498ee00bc05c50ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section01/BlankButton.png using Guid(8d30fc405704e214498ee00bc05c50ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082349111a15ab17871d77615375dc98') in 0.017350 seconds 
+  Import took 0.021771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Restart.png
+  artifactKey: Guid(111d4f982ceb3429b821a87e5f3cc18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Restart.png using Guid(111d4f982ceb3429b821a87e5f3cc18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b41a997b9196cc6204f65025e17479') in 0.016308 seconds 
+  Import took 0.019601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Facebook.png
+  artifactKey: Guid(9a1a5c88aec014771a05272f2062e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Facebook.png using Guid(9a1a5c88aec014771a05272f2062e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d01d1387616d7db5f2b308fd1bdc6f') in 0.013160 seconds 
+  Import took 0.016358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/DownArrow.png
+  artifactKey: Guid(4801c2af70dac4feebcefbb3e2f66fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/DownArrow.png using Guid(4801c2af70dac4feebcefbb3e2f66fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6aa9d888ac6391a7c2b298102155c9e') in 0.012584 seconds 
+  Import took 0.015667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section03/OptionButton.png
+  artifactKey: Guid(d3e215053b766af42b5b481d1f9f0729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section03/OptionButton.png using Guid(d3e215053b766af42b5b481d1f9f0729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056f47d610184091607e37a458bd1847') in 0.013807 seconds 
+  Import took 0.016828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Minus.png
+  artifactKey: Guid(7b3ddb33100024118b0f6b51cbb6e7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Minus.png using Guid(7b3ddb33100024118b0f6b51cbb6e7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f8c51e7baa47c7e084b374cf9bc90b') in 0.013344 seconds 
+  Import took 0.016497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/RightArrow.png
+  artifactKey: Guid(29511ee6c48ef4fe7ad496aba8b4036e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/RightArrow.png using Guid(29511ee6c48ef4fe7ad496aba8b4036e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fafb27df213d96a6a8a126501932c3') in 0.012566 seconds 
+  Import took 0.016295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/LeftArrow.png
+  artifactKey: Guid(685c0b57f7e5c4add84859bb4ef8b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/LeftArrow.png using Guid(685c0b57f7e5c4add84859bb4ef8b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94408f806c5150f287b63267d227418d') in 0.013135 seconds 
+  Import took 0.016168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Dollar.png
+  artifactKey: Guid(cc52ac453e019400984c19bb920c9217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Dollar.png using Guid(cc52ac453e019400984c19bb920c9217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9aa8bc5ff9ea19a871aa84bddf9885') in 0.014051 seconds 
+  Import took 0.018364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Restart.png
+  artifactKey: Guid(59e899b457bb24211ba8899f1a5d1d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Restart.png using Guid(59e899b457bb24211ba8899f1a5d1d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afffffe0a763b7a1de22dc671fd96ee6') in 0.015763 seconds 
+  Import took 0.019853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Gamecenter.png
+  artifactKey: Guid(7eacd24ae468b4bc585c82d27ba7eeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Gamecenter.png using Guid(7eacd24ae468b4bc585c82d27ba7eeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8883e940411746f10c014c687e110630') in 0.015354 seconds 
+  Import took 0.019111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Pause.png
+  artifactKey: Guid(f06723030ef874765a5e4ed1908b0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Pause.png using Guid(f06723030ef874765a5e4ed1908b0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db52bfe998453144b61f6213abf2e3ad') in 0.013188 seconds 
+  Import took 0.016677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section02/ExitButton.png
+  artifactKey: Guid(c688a1e6e813c8141b8b074ffd6462d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section02/ExitButton.png using Guid(c688a1e6e813c8141b8b074ffd6462d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbef188caad6d927f5bbbf2e606b25e') in 0.015872 seconds 
+  Import took 0.019362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Play.png
+  artifactKey: Guid(fc3341b3f1dac464baa311991f5499e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Play.png using Guid(fc3341b3f1dac464baa311991f5499e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53340dd5e4a8651f57e7ab68d78e5856') in 0.014304 seconds 
+  Import took 0.017778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Star.png
+  artifactKey: Guid(0fd1070f9532941f6a6fdf5719a3fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Star.png using Guid(0fd1070f9532941f6a6fdf5719a3fd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af38cea7e4d0bd4fa04355ec75c4de6') in 0.016205 seconds 
+  Import took 0.020108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Info.png
+  artifactKey: Guid(b7ceebf6d34824b7f844e3bbd52315d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Info.png using Guid(b7ceebf6d34824b7f844e3bbd52315d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd41a246c5b3d0386e3984235352fda') in 0.013778 seconds 
+  Import took 0.016922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/GameCenter.png
+  artifactKey: Guid(d7d1f598ffbd7431084c443549689ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/GameCenter.png using Guid(d7d1f598ffbd7431084c443549689ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de10864978e493b7ade546db54108180') in 0.012680 seconds 
+  Import took 0.015634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Star.png
+  artifactKey: Guid(48ef7593f17504acea11af90fd3e4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Star.png using Guid(48ef7593f17504acea11af90fd3e4d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff08f41a55031bd9e6d0ca6c99808bf') in 0.015045 seconds 
+  Import took 0.018699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section03/BlankButton.png
+  artifactKey: Guid(351b4cbab5939a44aac01a42754e41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section03/BlankButton.png using Guid(351b4cbab5939a44aac01a42754e41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2fac7507d4bf39071470f08d3e35ec') in 0.017215 seconds 
+  Import took 0.021189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section01/OptionButton.png
+  artifactKey: Guid(298f54eda3bf2d945998546d60a1095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section01/OptionButton.png using Guid(298f54eda3bf2d945998546d60a1095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a6f6257467c67449c558abcf0a1435') in 0.016158 seconds 
+  Import took 0.020345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Forward.png
+  artifactKey: Guid(616e65414b8734419bc94481aa4f8be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Forward.png using Guid(616e65414b8734419bc94481aa4f8be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd4c2f1a8fe2cdcf1a002f902742369') in 0.015610 seconds 
+  Import took 0.019030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Cancel.png
+  artifactKey: Guid(a1189c50db75e4f4e9e3df411acfd7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Cancel.png using Guid(a1189c50db75e4f4e9e3df411acfd7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69105013a71046baa0d2fe707ac6097') in 0.015082 seconds 
+  Import took 0.017949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section02/OptionButton.png
+  artifactKey: Guid(f10429c38dca33542a6c7f0719facfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section02/OptionButton.png using Guid(f10429c38dca33542a6c7f0719facfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191eb97e3617285711818f89ca97512a') in 0.015106 seconds 
+  Import took 0.019266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/GooglePlus.png
+  artifactKey: Guid(b05742cfb10a34ccb8bfd16f85676a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/GooglePlus.png using Guid(b05742cfb10a34ccb8bfd16f85676a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739d0313a4f19bb2ccbbda060167b8d4') in 0.013630 seconds 
+  Import took 0.016963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/Sprites/PurpleRockBG-resized.png
+  artifactKey: Guid(3fb580970ae8c48e7befdc608b11eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/Sprites/PurpleRockBG-resized.png using Guid(3fb580970ae8c48e7befdc608b11eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a7da105702224c9da47b172aa2073f') in 0.012696 seconds 
+  Import took 0.016092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Pause.png
+  artifactKey: Guid(ff8821736c16349d4b3c8dc2f5ccedcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Pause.png using Guid(ff8821736c16349d4b3c8dc2f5ccedcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a9b5e914dc2452fa59c0a586b2e796') in 0.017426 seconds 
+  Import took 0.020933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Email.png
+  artifactKey: Guid(01c62efadfd454a479ee0bd73c4b2018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Email.png using Guid(01c62efadfd454a479ee0bd73c4b2018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d45dd0fa8bfa2960c4a857a4df58e66') in 0.012532 seconds 
+  Import took 0.015685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Restart.png
+  artifactKey: Guid(f411799d2db434ea7a9cad5c2cbb23d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Restart.png using Guid(f411799d2db434ea7a9cad5c2cbb23d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea689bdad33b2acc37d3df0399b28985') in 0.011848 seconds 
+  Import took 0.014693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/RightArrow2.png
+  artifactKey: Guid(6f83ff1cec9b44582825b4e3893abc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/RightArrow2.png using Guid(6f83ff1cec9b44582825b4e3893abc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e77cacbdf64675b1f9a9d03697a60e') in 0.014701 seconds 
+  Import took 0.018029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/QuestionMark.png
+  artifactKey: Guid(30f5dccc2573c4d85a74ad0aa5c40f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/QuestionMark.png using Guid(30f5dccc2573c4d85a74ad0aa5c40f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adda922e1b824fc79c7585ccf3d27493') in 0.014062 seconds 
+  Import took 0.016880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/SoundON.png
+  artifactKey: Guid(493fd7d0e626d4db091f50928058f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/SoundON.png using Guid(493fd7d0e626d4db091f50928058f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bd4821289cf94ce0c6a12b1189d20c') in 0.015297 seconds 
+  Import took 0.019067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow.png
+  artifactKey: Guid(c0c6d013c6a5040b08fe99535fddb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/LeftArrow.png using Guid(c0c6d013c6a5040b08fe99535fddb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb47ab367bb8030383db981f3c8c903d') in 0.014115 seconds 
+  Import took 0.017442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Email.png
+  artifactKey: Guid(1157603c9e47a409b9a75b91ff561c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Email.png using Guid(1157603c9e47a409b9a75b91ff561c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd34cc46f3609c9151262734184fb499') in 0.013824 seconds 
+  Import took 0.016847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/RightArrow2.png
+  artifactKey: Guid(306b16567939347c78cf9ab470a783ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/RightArrow2.png using Guid(306b16567939347c78cf9ab470a783ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6807a028f8ba30b479666ef6ea5ffcc1') in 0.012377 seconds 
+  Import took 0.015410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/DownArrow.png
+  artifactKey: Guid(ca15e163733754df096397f031537b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/DownArrow.png using Guid(ca15e163733754df096397f031537b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f765bbcf00b3507375df14125835f3') in 0.014875 seconds 
+  Import took 0.018197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Game GUI Vol1/Playful/PNG/Backward.png
+  artifactKey: Guid(4f8c06a6606ba4691a8da5d0abe8332e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/Playful/PNG/Backward.png using Guid(4f8c06a6606ba4691a8da5d0abe8332e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8b899be11dfd254369897a77a802c9') in 0.013096 seconds 
+  Import took 0.016424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/Email.png
+  artifactKey: Guid(96f7c7fbe059d4ea8b8f3e34827a1e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/Email.png using Guid(96f7c7fbe059d4ea8b8f3e34827a1e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a09857d3131c15f30d870189706ed1') in 0.013995 seconds 
+  Import took 0.017068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Home.png
+  artifactKey: Guid(f7b138e135c0a45f18d51a95098940e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Home.png using Guid(f7b138e135c0a45f18d51a95098940e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30712ada5cbf077f657d21d949c41ff8') in 0.014979 seconds 
+  Import took 0.018629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/RightArrow.png
+  artifactKey: Guid(5e6fc93512f454c59be69ecc14788186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/RightArrow.png using Guid(5e6fc93512f454c59be69ecc14788186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd551fa28d6d641a267cd3dc1be6e44b9') in 0.014345 seconds 
+  Import took 0.017523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Signup/congra.png
+  artifactKey: Guid(ab83fbc52ed4dc244a00bdfc9a9bf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Signup/congra.png using Guid(ab83fbc52ed4dc244a00bdfc9a9bf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0070fd31108d46496895e83c490dbcf') in 0.015691 seconds 
+  Import took 0.018875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section02/SettingButton.png
+  artifactKey: Guid(16a9035e313cb3a4e8d75f6efb2c031d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section02/SettingButton.png using Guid(16a9035e313cb3a4e8d75f6efb2c031d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245829139cf4a7e736eb8a38c3ae5773') in 0.014818 seconds 
+  Import took 0.018174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Forward.png
+  artifactKey: Guid(74532214feff94118a3eff4b6f865489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Forward.png using Guid(74532214feff94118a3eff4b6f865489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d85a20d688b4a6a7f8024faf39bc1e') in 0.013921 seconds 
+  Import took 0.017553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Dollar.png
+  artifactKey: Guid(5e32ac25d1d1749bd8ad276098500aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Dollar.png using Guid(5e32ac25d1d1749bd8ad276098500aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76509e2648dcb8b4dddf32e58988238e') in 0.014439 seconds 
+  Import took 0.017497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundON.png
+  artifactKey: Guid(1f146482e13454138889e7b21267f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/WoodenBlocks/PNG/SoundON.png using Guid(1f146482e13454138889e7b21267f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e3ac250cfe51e6ae65c77b0ceccbff') in 0.013268 seconds 
+  Import took 0.016798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Email.png
+  artifactKey: Guid(feb0b2e65fe4948eaa2ebfc6c9dd2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Email.png using Guid(feb0b2e65fe4948eaa2ebfc6c9dd2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3682099155b26c9f010a7d18cc5dc2') in 0.013485 seconds 
+  Import took 0.017016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Forward.png
+  artifactKey: Guid(2cb44f2ba74d44feaa8292079e48c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Forward.png using Guid(2cb44f2ba74d44feaa8292079e48c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063b313251c1c2f65b0cb0eb911ab556') in 0.015283 seconds 
+  Import took 0.018840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Menu.png
+  artifactKey: Guid(b3e86ce34507f4309b0dba14987a34d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Menu.png using Guid(b3e86ce34507f4309b0dba14987a34d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accd76e549e55a5e1ce0e263c34c1c91') in 0.013819 seconds 
+  Import took 0.017268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Game GUI Vol1/PurpleRock/PNG/Cancel.png
+  artifactKey: Guid(cff2074e06df54190876089e6dbf29d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/PurpleRock/PNG/Cancel.png using Guid(cff2074e06df54190876089e6dbf29d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7590e6b510dcea2640b2b905fcc80b2a') in 0.013685 seconds 
+  Import took 0.016675 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008392 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1046ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (815ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1571 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.1 MB.
+System memory in use after: 78.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 2.918600 ms (FindLiveObjects: 0.176200 ms CreateObjectMapping: 0.044100 ms MarkObjects: 2.682000 ms  DeleteObjects: 0.015300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 313.978453 seconds.
+  path: Assets/Game GUI Vol1
+  artifactKey: Guid(173d4ce1e66d38347b1a3649a46ad5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1 using Guid(173d4ce1e66d38347b1a3649a46ad5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1f63b80612d555c0d4c26dc4197bdd') in 0.007653 seconds 
+  Import took 0.011408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.967605 seconds.
+  path: Assets/Game GUI Vol1/LazyDay
+  artifactKey: Guid(25fefd08f02e9412ea797d6eaae90d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay using Guid(25fefd08f02e9412ea797d6eaae90d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfa112ca3e4c379297cd2e206be9cf0') in 0.004672 seconds 
+  Import took 0.007447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.780538 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG
+  artifactKey: Guid(566e6e8c9f36d4f35993f7f2303858cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG using Guid(566e6e8c9f36d4f35993f7f2303858cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef73497c1af90858ae93c05e4117faf5') in 0.004581 seconds 
+  Import took 0.007500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079353 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Trophy.png
+  artifactKey: Guid(0589d3eb4e6ef4d269663222f1a92efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Trophy.png using Guid(0589d3eb4e6ef4d269663222f1a92efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437c6875d94fead8a92169dcc95fd80a') in 0.054580 seconds 
+  Import took 0.057945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/UpArrow.png
+  artifactKey: Guid(3629ce294ae2640b6a8137de2adde913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/UpArrow.png using Guid(3629ce294ae2640b6a8137de2adde913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bb65fcc79db0baaeed5d40bb29693e') in 0.015688 seconds 
+  Import took 0.018146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Game GUI Vol1/LazyDay/PNG/Twitter.png
+  artifactKey: Guid(d6c546384b9de45718bfa37ad8251d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game GUI Vol1/LazyDay/PNG/Twitter.png using Guid(d6c546384b9de45718bfa37ad8251d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639ba8ac1e45b2abd66b5702cc5e7ff8') in 0.015997 seconds 
+  Import took 0.019029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.517311 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection
+  artifactKey: Guid(893625075f39a4448b148bce75e19bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection using Guid(893625075f39a4448b148bce75e19bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47713db5f574386d233c78967dcce16') in 0.004853 seconds 
+  Import took 0.008049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.557433 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section01
+  artifactKey: Guid(7e95335606820814f85758ef1b8ea475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section01 using Guid(7e95335606820814f85758ef1b8ea475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c764c7f1a9ea10971ceb25fa393feb5') in 0.005053 seconds 
+  Import took 0.008724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058840 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section01/StartButton.png
+  artifactKey: Guid(fddf087ead9010447958b0ccad787990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section01/StartButton.png using Guid(fddf087ead9010447958b0ccad787990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0217e60e3ef933ea05929d66b56aa11a') in 0.014642 seconds 
+  Import took 0.017533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.867160 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section03/StartButton.png
+  artifactKey: Guid(dfdc0e6723064cf4e86bdffe50ba1d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section03/StartButton.png using Guid(dfdc0e6723064cf4e86bdffe50ba1d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bd8edb07dcc5bc00abf58cebcb0963') in 0.013748 seconds 
+  Import took 0.017513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.909884 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section02/StartButton.png
+  artifactKey: Guid(beadb47bca02ceb459a5e77b2ab52f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section02/StartButton.png using Guid(beadb47bca02ceb459a5e77b2ab52f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b17596588a8f743d568b266c983d1a7') in 0.014051 seconds 
+  Import took 0.017407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.005818 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section04/StartButton.png
+  artifactKey: Guid(b1052106919680b45af6b06cc87db6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section04/StartButton.png using Guid(b1052106919680b45af6b06cc87db6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c725c9e4f1b4f321eabc06f9c6c97b26') in 0.013285 seconds 
+  Import took 0.017162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.482340 seconds.
+  path: Assets/TechnoGami/2d UI button/AllSection/Section05/StartButton.png
+  artifactKey: Guid(b5f240c4fe45e9a4eb63aa490a6ed634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/2d UI button/AllSection/Section05/StartButton.png using Guid(b5f240c4fe45e9a4eb63aa490a6ed634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18da1eb4a10fc553d4e467e6a7700dbf') in 0.016397 seconds 
+  Import took 0.020239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.363676 seconds.
+  path: Assets/Fonts/Maplestory Bold.ttf
+  artifactKey: Guid(5962e0e4e8c1e2b4898bcd3f22d92531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Maplestory Bold.ttf using Guid(5962e0e4e8c1e2b4898bcd3f22d92531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247a24af3a2bd18e91c5d83e0d8ae819') in 0.071967 seconds 
+  Import took 0.075666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Fonts/Maplestory Light.ttf
+  artifactKey: Guid(8a922da819b5a704aaaba182c3dd23c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Maplestory Light.ttf using Guid(8a922da819b5a704aaaba182c3dd23c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5581277e77503826cab8f7a4af9b6502') in 0.018702 seconds 
+  Import took 0.022307 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1571 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.5 MB.
+System memory in use after: 78.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2105.
+Total: 2.846200 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.046000 ms MarkObjects: 2.579100 ms  DeleteObjects: 0.015100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

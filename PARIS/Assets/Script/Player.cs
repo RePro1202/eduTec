@@ -19,9 +19,6 @@ public class Player : MonoBehaviour
             randMark.Enter(this);
             culture = true;
         }
-
-        Debug.Log(nearObject.name);
-        
     }
 
     void OnTriggerExit(Collider other)

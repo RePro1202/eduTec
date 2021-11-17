@@ -71,6 +71,11 @@ public class QuizControl : MonoBehaviour
         
     }
 
+    public void re_Test()
+    {
+        Show_result.SetActive(false);
+    }
+
     public void Click()
     {
         if (sprites.Length != index + 1)
@@ -254,5 +259,9 @@ public class QuizControl : MonoBehaviour
             audioSource.PlayOneShot(Failed, 1);
         }
         Show_result.SetActive(true);
+        index = 0;
+        score = 0;
+        image.sprite = sprites[index];
+        QuizFuc();
     }
 }
