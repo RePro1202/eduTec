@@ -41737,8 +41737,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Quest: {fileID: 1983076701}
   sprites:
-  - {fileID: 21300000, guid: 6462833fd882b2d4f965cb77cdc38d46, type: 3}
-  - {fileID: 21300000, guid: cd26e051bec9ecb4c9d2fd3d58331cb6, type: 3}
+  - {fileID: 21300000, guid: eb5b1594219d9b0488cb9a32d23f880c, type: 3}
+  - {fileID: 21300000, guid: e4a5b9e67a36f7c48bbe2f68e14a0b95, type: 3}
 --- !u!114 &1049767006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41759,7 +41759,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6462833fd882b2d4f965cb77cdc38d46, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb5b1594219d9b0488cb9a32d23f880c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -69670,7 +69670,7 @@ MonoBehaviour:
   - {fileID: 614764167546008229, guid: 8298ffb3a1f2613448692c9964150ea1, type: 3}
   - {fileID: -138073160162052038, guid: 8298ffb3a1f2613448692c9964150ea1, type: 3}
   - {fileID: -3909538499656236742, guid: 8298ffb3a1f2613448692c9964150ea1, type: 3}
-  - {fileID: 21300000, guid: c048f09c173c70b4e89180eeeacb180b, type: 3}
+  - {fileID: 21300000, guid: 6ed3fd61fbc22e343b91b4c19d267a03, type: 3}
   - {fileID: 21300000, guid: 04c4f7e3079cd5145972ba1256de117d, type: 3}
   OX_sprites:
   - {fileID: -7458644841931291081, guid: b2e47b9f0d5af24468aab9d97f1b0d37, type: 3}
