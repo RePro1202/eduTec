@@ -10,8 +10,10 @@ public class RandMarkSpot : MonoBehaviour
     public GameObject inUI;
     Player enterPlayer;
 
+
     public void Enter(Player player)
     {
+        Time.timeScale = 0f;
         enterPlayer = player;
         popUp.GetComponent<GameObject>();
         BackGround.GetComponent<GameObject>();
@@ -20,6 +22,7 @@ public class RandMarkSpot : MonoBehaviour
         BackGround.SetActive(true);
         popUp.SetActive(true);
         inUI.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     public void Exit()
