@@ -13,15 +13,12 @@ public class inGameUI : MonoBehaviour
     public Text Clear_art;
     public Text Clear_language;
 
-    public AudioClip Applaus;
-    AudioSource audioSource;
-
     private bool c = false, s = false, a = false, l = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = gameObject.GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -68,8 +65,6 @@ public class inGameUI : MonoBehaviour
             Clear_social.color = color;
             Clear_art.color = color_white;
             Clear_art.text = "축하합니다. 모든 확습을 완료했습니다";
-            audioSource.PlayOneShot(Applaus, 1);
-
         }
         else if(c && s && a && l)
         {
